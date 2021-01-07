@@ -1,0 +1,1 @@
+execute as @e[tag=hohosacrifice] run data merge entity @s {Motion:[0.0,9.0,0.0]}

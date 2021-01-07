@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:armor_stand,tag=hohototemsubmission] at @s if entity @e[type=item,nbt={Item:{id:"minecraft:totem_of_undying"}},distance=..2] run kill @e[type=item,nbt={Item:{id:"minecraft:totem_of_undying"}},distance=..5]

@@ -1,0 +1,4 @@
+execute as @e[type=minecraft:armor_stand,tag=hohoapplesubmission] at @s if entity @e[type=item,nbt={Item:{id:"minecraft:enchanted_golden_apple"}},distance=..2] run execute as @e[type=minecraft:armor_stand,tag=hohototemsubmission] at @s if entity @e[type=item,nbt={Item:{id:"minecraft:totem_of_undying"}},distance=..2] run scoreboard players set ritualStage ritualStage 4
+
+execute if score ritualStage ritualStage matches 4 run execute as @e[type=minecraft:armor_stand,tag=hohoapplesubmission] at @s if entity @e[type=item,nbt={Item:{id:"minecraft:enchanted_golden_apple"}},distance=..5] run kill @e[type=item,nbt={Item:{id:"minecraft:enchanted_golden_apple"}},distance=..5]
+execute if score ritualStage ritualStage matches 4 run execute as @e[type=minecraft:armor_stand,tag=hohototemsubmission] at @s if entity @e[type=item,nbt={Item:{id:"minecraft:totem_of_undying"}},distance=..5] run kill @e[type=item,nbt={Item:{id:"minecraft:totem_of_undying"}},distance=..5]

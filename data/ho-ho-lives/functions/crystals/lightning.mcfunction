@@ -1,0 +1,1 @@
+execute at @e[tag=hohocrystal,type=minecraft:end_crystal] run summon minecraft:lightning_bolt ~ ~ ~

@@ -1,0 +1,1 @@
+execute align y run summon minecraft:armor_stand ~ ~ ~ {NoGravity:1,Invisible:1,OnGround:1,Small:1,NoBasePlate:1,Tags:["hohototemsubmission"]}

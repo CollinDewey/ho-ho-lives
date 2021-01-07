@@ -1,0 +1,1 @@
+execute as @e[tag=hohosacrifice] run data merge entity @s {NoAI:1}

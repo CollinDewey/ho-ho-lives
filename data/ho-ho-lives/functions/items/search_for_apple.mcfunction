@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:armor_stand,tag=hohoapplesubmission] at @s if entity @e[type=item,nbt={Item:{id:"minecraft:golden_apple"}},distance=..2] run kill @e[type=item,nbt={Item:{id:"minecraft:golden_apple"}},distance=..5]
